@@ -19,7 +19,7 @@ func main() {
 	ans := 0
 	for i:=5; i>0; i-- {
 		num := min(a / t[i], coins[t[i]])
-		a -= t[i] * numN
+		a -= t[i] * num
 		ans += num
 	}
 
