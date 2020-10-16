@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var n = 5
-var l = []int {8,4,4,5,11}
+var n = 3
+var l = []int {8,5,8}
 
 func main() {
 	ans := 0
