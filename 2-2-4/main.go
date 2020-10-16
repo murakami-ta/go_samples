@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var n = 3
-var l = []int {8,5,8}
+var n = 5
+var l = []int {8,4,4,5,11}
 
 func main() {
 	ans := 0
@@ -27,7 +27,7 @@ func main() {
 		t := l[mil1] + l[mil2]
 		ans += t
 
-		if mil1 == n -1 {
+		if mil1 == n-1 {
 			tmp := l[mil2]
 			l[mil2] = l[mil1]
 			l[mil1] = tmp
